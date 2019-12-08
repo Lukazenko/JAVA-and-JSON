@@ -35,4 +35,9 @@ public class Staff {
     void setSkills(List<String> skills) {
     	this.skills = skills;
     }
+    
+    public String toString() {
+		return "name: " + name + ", age = " + age + ", position = " + Arrays.toString(position) + ", skills = " + this.skills + ", salary = " + this.salary;
+    	
+    }
 }
